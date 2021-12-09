@@ -24,5 +24,11 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+        "react/react-in-jsx-scope": "off",
+        "react/function-component-definition": [1, {
+            "namedComponents": ["function-declaration", "function-expression" , "arrow-function"],
+            "unnamedComponents": ["function-expression", "arrow-function"]
+        }]
     }
 }

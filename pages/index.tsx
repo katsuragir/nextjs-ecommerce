@@ -1,15 +1,16 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import { useEffect } from 'react';
+import AOS from 'aos';
 
-const Home: NextPage = () => {
+export default function Home() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
   return (
     <>
     <section>
         <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/#">
                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60"
                             height="60">
@@ -84,10 +85,10 @@ const Home: NextPage = () => {
                 <div className="col-lg-6 col-12 d-lg-block d-none">
                     <div className="d-flex justify-content-lg-end justify-content-center me-lg-5">
                         <div className="position-relative" data-aos="zoom-in">
-                            <img src="./assets/img/Header-1.png" className="img-fluid" alt="" />
+                            <img src="/img/Header-1.png" className="img-fluid" alt="" />
                             <div className="card left-card position-absolute border-0">a
                                 <div className="d-flex align-items-center mb-16 gap-3">
-                                    <img src="./assets/img/Header-2.png" width="40" height="40" className="rounded-pill"
+                                    <img src="/img/Header-2.png" width="40" height="40" className="rounded-pill"
                                         alt="" />
                                     <div>
                                         <p className="text-sm fw-medium color-palette-1 m-0">Shayna Anne</p>
@@ -129,7 +130,7 @@ const Home: NextPage = () => {
                             </div>
                             <div className="card right-card position-absolute border-0">
                                 <div className="position-relative d-flex flex-row justify-content-center mb-24">
-                                    <img src="./assets/img/Header-3.png" className="rounded-pill" alt="" />
+                                    <img src="/img/Header-3.png" className="rounded-pill" alt="" />
                                     <p className="right-card-support text-white text-xxs text-center position-absolute m-0">
                                         New</p>
                                 </div>
@@ -250,7 +251,7 @@ const Home: NextPage = () => {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-1.png" width="205" height="270" alt="" />
+                            <img src="/img/Thumbnail-1.png" width="205" height="270" alt="" />
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -274,7 +275,7 @@ const Home: NextPage = () => {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-2.png" width="205" height="270" alt="" />
+                            <img src="/img/Thumbnail-2.png" width="205" height="270" alt="" />
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -298,7 +299,7 @@ const Home: NextPage = () => {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-3.png" width="205" height="270" alt="" />
+                            <img src="/img/Thumbnail-3.png" width="205" height="270" alt="" />
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -322,7 +323,7 @@ const Home: NextPage = () => {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-4.png" width="205" height="270" alt="" />
+                            <img src="/img/Thumbnail-4.png" width="205" height="270" alt="" />
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -346,7 +347,7 @@ const Home: NextPage = () => {
                 <div className="featured-game-card position-relative">
                     <a href="./src/detail.html">
                         <div className="blur-sharp">
-                            <img src="./assets/img/Thumbnail-5.png" width="205" height="270" alt="" />
+                            <img src="/img/Thumbnail-5.png" width="205" height="270" alt="" />
                         </div>
                         <div className="cover position-absolute bottom-0 m-32">
                             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
@@ -404,7 +405,7 @@ const Home: NextPage = () => {
         <div className="container-xxl container-fluid">
             <div className="row align-items-center px-lg-5 mx-auto gap-lg-0 gap-4">
                 <div className="col-lg-7 col-12 d-lg-flex d-none justify-content-lg-end pe-lg-60" data-aos="zoom-in">
-                    <img src="./assets/img/Header-9.png" width="612" height="452" className="img-fluid" alt="" />
+                    <img src="/img/Header-9.png" width="612" height="452" className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-5 col-12 ps-lg-60">
                     <div className="">
@@ -520,5 +521,3 @@ const Home: NextPage = () => {
     </>
   )
 }
-
-export default Home
