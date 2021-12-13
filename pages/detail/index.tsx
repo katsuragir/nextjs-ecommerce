@@ -52,7 +52,7 @@ export default function Detail() {
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                     <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
                                             <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -70,7 +70,7 @@ export default function Detail() {
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                     <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
                                             <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -88,7 +88,7 @@ export default function Detail() {
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                     <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
                                             <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -106,7 +106,7 @@ export default function Detail() {
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                     <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
                                             <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -124,7 +124,7 @@ export default function Detail() {
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                     <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                        strokeWidth="2" strokeLinecap="round" stroke-linejoin="round" />
                                                 </svg>
                                             </div>
                                             <p className="text-lg color-palette-1 m-0">Rp 3.250.000</p>
@@ -150,7 +150,7 @@ export default function Detail() {
                                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                         <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                            stroke-width="2" stroke-linecap="round"
+                                                            strokeWidth="2" strokeLinecap="round"
                                                             stroke-linejoin="round" />
                                                     </svg>
                                                 </div>
@@ -167,7 +167,7 @@ export default function Detail() {
                                                         fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
                                                         <path d="M5.83301 10L8.46459 12.5L14.1663 7.5" stroke="#00BAFF"
-                                                            stroke-width="2" stroke-linecap="round"
+                                                            strokeWidth="2" strokeLinecap="round"
                                                             stroke-linejoin="round" />
                                                     </svg>
                                                 </div>
