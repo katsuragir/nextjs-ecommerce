@@ -106,7 +106,7 @@ export default function ComplateCheckout() {
                             </linearGradient>
                             <linearGradient id="paint7_linear" x1="158.725" y1="240.949" x2="274.511" y2="269.213"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stop-color="#606673" stop-opacity="0" />
+                                <stop offset="0.00289017" stop-color="#606673" stopOpacity="0" />
                                 <stop offset="1" stop-color="#373C47" />
                             </linearGradient>
                             <linearGradient id="paint8_linear" x1="235.098" y1="243.554" x2="317.994" y2="300.73"

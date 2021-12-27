@@ -149,12 +149,12 @@ export default function Custom404() {
                             </linearGradient>
                             <linearGradient id="paint2_linear" x1="407.293" y1="252.456" x2="377.296" y2="258.937"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                                 <stop offset="1" stopColor="#373C47" />
                             </linearGradient>
                             <linearGradient id="paint3_linear" x1="232.522" y1="221.979" x2="232.522" y2="48.4336"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                                 <stop offset="1" stopColor="#373C47" />
                             </linearGradient>
                             <linearGradient id="paint4_linear" x1="29.1692" y1="78.748" x2="422.924" y2="78.748"
@@ -164,17 +164,17 @@ export default function Custom404() {
                             </linearGradient>
                             <linearGradient id="paint5_linear" x1="437.527" y1="144.362" x2="459.972" y2="169.644"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                                 <stop offset="1" stopColor="#373C47" />
                             </linearGradient>
                             <linearGradient id="paint6_linear" x1="30.7966" y1="144.362" x2="53.238" y2="169.644"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                                 <stop offset="1" stopColor="#373C47" />
                             </linearGradient>
                             <linearGradient id="paint7_linear" x1="226.322" y1="71.8503" x2="226.322" y2="47.7445"
                                 gradientUnits="userSpaceOnUse">
-                                <stop offset="0.00289017" stopColor="#3F5073" stop-opacity="0" />
+                                <stop offset="0.00289017" stopColor="#3F5073" stopOpacity="0" />
                                 <stop offset="1" stopColor="#283247" />
                             </linearGradient>
                             <clipPath id="clip0">
