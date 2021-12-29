@@ -2,13 +2,12 @@ import Menu from "./menu";
 
 export default function Contact() {
   const lists = [
-    { title: "hi@store.gg", href: "mailto: hi@store.gg" },
-    { title: "team@store.gg", href: "mailto: team@store.gg" },
+    { title: "Katsuragi R", href: "https://github.com/katsuragir" },
     {
-      title: "Pasific 12, Jakarta Selatan",
-      href: "http://maps.google.com/?q=Pasific 12",
+      title: "Ridhliver Software",
+      href: "https://goo.gl/maps/B7mgr5a5Gwg5uVNU7",
     },
-    { title: "021 - 1122 - 9090", href: "tel: 02111229090" },
+    { title: "0821 - 2412 - 5844", href: "tel: +6282124125844" },
   ];
   return (
     <div className="col-md-4 col-12 mt-lg-0 mt-md-0 mt-25">
