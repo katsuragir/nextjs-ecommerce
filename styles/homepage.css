@@ -104,6 +104,8 @@
 .featured-game .featured-game-card .blur-sharp {
   overflow: hidden;
   border-radius: 1.625rem;
+  width: 205px;
+  height: 260px;
 }
 .featured-game .featured-game-card:hover .blur-sharp {
   width: 192px;
